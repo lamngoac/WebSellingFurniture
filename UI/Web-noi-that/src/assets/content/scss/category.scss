@@ -1,0 +1,202 @@
+@import 'base';
+@import 'keyframe';
+@import 'var';
+@import 'function';
+@import '../bootstrap/bootstrap';
+$main_cl:rgba(226, 240, 233, 1);
+$xanh:rgba(4, 110, 50, 1);
+$white:#fff;
+$blackv1:rgb(37, 37, 37);
+$blackv2:rgb(69, 69, 69);
+$vang:#FFCA08;
+$short:#666666;
+$placeorder:rgba(155, 169, 186, 1);
+$title_sm:rgba(167, 167, 167, 1);
+
+
+.sl_filter {color: inherit;
+    width: 222px;padding: 0.625rem 14px;border: 0.0625rem solid #EBEBEB;box-sizing: border-box;border-radius: 99px;background: #fff;
+    appearance: none;
+    background: url(../images/de.png) right 0.625rem center no-repeat #FFF !important;
+}
+
+.box_input > * {
+    height: 2rem;
+    border: transparent;
+    background: transparent;
+}
+
+.box_input {
+    padding: 0.3125rem;
+    width: 17.625rem;
+    border: 0.0625rem solid #DCDDDE;
+    border-radius: 1.5625rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.25rem;
+}
+
+.box_input button {
+    background: #056933;
+    flex: 1;
+    max-width: 2rem;
+    border-radius: 50%;
+}
+
+.box_input button img {
+    filter: brightness(0) invert(1);
+}
+.frm_filter{
+    background: #F5F5F5;
+    padding: 0.625rem 1.0625rem;
+    .all_reconds{
+        .title{
+            font-weight: 600;
+        }
+    }
+}
+.sidebar .box_content .title {
+    font-size: 1.25rem;
+    margin-bottom: cal(16rem);
+    line-height: 1.2;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 0.975rem;
+    border-bottom: solid 0.125rem #EBEBEB;
+}
+
+.sidebar .box_content .title:after {
+    position: absolute;
+    bottom: -0.125rem;
+    left: 0;
+    width: 12.125rem;
+    background: #ffca07;
+    content: '';
+    height: 0.125rem;
+}
+.sidebar .box_content .ls_ul > ul > li:not(:last-child) {
+    margin-bottom: 0.8125rem;
+}
+
+.sidebar .box_content .ls_ul ul ul {
+    display: none;
+    padding-left: 0.9375rem;
+}
+
+.sidebar .box_content {
+    margin-bottom: 2.8125rem;
+}
+.sidebar .box_content .ls_ul ul ul li {
+    margin-top: 0.5rem;
+}
+.choose_color {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    margin-bottom: cal(25rem);
+    height: cal(29rem);
+    width: cal(29rem);
+    border-radius: 62.4375rem;
+    @extend .smooth;
+}
+.choose_color input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: 1;
+    height: 100%;
+}
+.choose_color.active:after {
+    opacity: 1;
+}
+.choose_color:after {
+    position: absolute;
+    opacity: 0;
+    border-radius: 50%;
+    content: '';
+    border: solid 0.1563rem currentColor;
+    inset: -0.75rem;
+    z-index: 1;
+    @extend .smooth;
+}
+.ls_color{
+    margin-top: cal(30rem);
+    display: flex;
+    flex-wrap: wrap;
+    label{
+        display: inline-block;
+    }
+}
+.ls_color label:not(:last-child) {
+    margin-right: cal(25rem);
+}
+
+.box_checkbox {
+    position: relative;
+    margin-bottom: cal(12rem);
+    display: block;
+    z-index: 1;
+}
+
+.box_checkbox input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.box_checkbox input:checked + span:before {
+    opacity: 1;
+}
+.box_checkbox span:before{
+    position: absolute;
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
+    background-image: url(../images/close.svg);
+    content: '';
+    background-color: #076837;
+    background-position: center;
+    background-size: contain;
+    left: 0.125rem;
+    top: 0.4375rem;
+    z-index: 2;
+    opacity: 0;
+}
+.box_checkbox span:after {
+    position: absolute;
+    width: 1rem;
+    z-index: 1;
+    height: 1rem;
+    background: #fff;
+    border: solid thin #eaeaea;
+    content: '';
+    left: 0;
+    border-radius: 0.1875rem;
+    top: 0.3125rem;
+}
+
+.box_checkbox span {
+    padding-left: 1.6875rem;
+}
+.page_category{
+    margin-top: cal(65rem);
+    > .container{
+       > .row{
+            --bs-gutter-x:2rem;
+        }
+    }
+    & + .sale-prd{
+        padding-top: cal(65rem);
+        padding-bottom: cal(80rem);
+        .sale-prd__item{
+            background:#fff;
+        }
+    }
+}

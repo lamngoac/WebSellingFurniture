@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "MK6lhJ0ZWPboh84rQNkMRleaJRrF/CacNJXFIiKKRL44G3HOyzDNbVwj/rxO8GlTEYlMnkRn9BDwShwb0wZObA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BOSS\\Desktop\\BTL 2 Mon\\Web_BanNoiThat\\API\\Web.Caching\\Web.Caching.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BOSS\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\BOSS\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\BOSS\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\BOSS\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\BOSS\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\BOSS\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

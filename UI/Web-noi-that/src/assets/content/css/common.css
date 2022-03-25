@@ -1,0 +1,103 @@
+.h-flex{
+    flex: 1;   
+}
+.h-pos-relative{
+    position: relative;
+}
+.h-mg-t100{
+    margin-top: 100px;
+}
+.h-mg-t80{
+    margin-top: 80px;
+}
+.h-mg-t40{
+    margin-top: 40px;
+}
+.h-mg-t30{
+    margin-top: 30px;
+}
+.h-mg-t20{
+    margin-top: 20px;
+}
+.h-mg-t10{
+    margin-top: 10px;
+}
+.h-mg-l3\%{
+    margin-left: 3%;
+}
+.h-mt-20{
+    margin-top: 20px;
+}
+.h-width-3\/10{
+    width: 30% !important;
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+.h-ml-15{
+    margin-left: 15px;
+}
+
+
+/* margin -right */
+.h-mr-5{
+    margin-right: 5px;
+}
+.h-mr-15{
+    margin-right: 15px;
+}
+/* Margin bottom */
+.h-mb-5{
+    margin-bottom: 5px;
+}
+.h-mb-20{
+    margin-bottom: 20px;
+}
+
+.h-text-center{
+    text-align: center;
+}
+.min-w-1{
+    min-width: 100%;
+}
+.min-w-200px{
+    min-width: 200px;
+}
+.width-100px{
+    min-width: 100px;
+    max-width: 100px;
+}
+.h-display-flex{
+    display: flex;
+}
+
+.h-flex{
+    flex:1;
+}
+
+
+.jus-end{
+    justify-content: flex-end;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.btn-default{
+    cursor: pointer;
+}
+
+.jus-center{
+    justify-content: center;
+    display: flex;
+}
+
+.font-bold{
+    font-weight: bold;
+}

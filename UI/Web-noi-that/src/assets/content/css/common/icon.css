@@ -1,0 +1,45 @@
+.icon-16{
+    width: 16px;
+    height: 16px;
+    min-height: 16px;
+    min-width: 16px;
+}
+.icon-46{
+    width: 46px;
+    height: 46px;
+    min-height: 46px;
+    min-width: 46px;
+}
+.icon-search{
+    background-image: url('../../icon/icon-search.png');
+}
+
+.icon-add{
+    background-image: url('../../icon/icon-add.png');
+}
+
+.icon-close{
+    background: url('../../icon/Sprites.svg') no-repeat -1176px -360px;
+}
+
+
+.icon-delete-big{
+    background-image: url('../../icon/icon-delete-big.png');
+}
+
+.icon-arrow-down{
+    background-image: url('../../icon/icon-arrow-down.png');
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+.icon-arrow-up{
+    background-image: url('../../icon/icon-arrow-down.png');
+    transform: rotate(180deg);
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}

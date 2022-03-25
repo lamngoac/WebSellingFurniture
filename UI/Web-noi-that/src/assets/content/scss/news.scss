@@ -1,0 +1,125 @@
+@import 'base';
+@import 'keyframe';
+@import 'var';
+@import 'function';
+@import '../bootstrap/bootstrap';
+.news {
+  &.--hot-news {
+    margin-bottom: cal(53rem);
+  }
+
+  &.--main-news {
+    background: #F5F5F5;
+    padding: cal(103rem) 0 cal(86rem) 0;
+  }
+
+  &__list {
+    @include media-breakpoint-up(lg) {
+      --bs-gutter-x: 2rem;
+      --bs-gutter-y: 2rem;
+    }
+  }
+
+  &__tabs {
+    border: none;
+
+    .nav-item {
+      &:not(:last-child) {
+        @include media-breakpoint-up(lg) {
+          margin-right: cal(49rem);
+        }
+        @include media-breakpoint-down(lg) {
+          margin-right: cal(25rem);
+        }
+      }
+
+      .nav-link {
+        border: none;
+        font-size: 2rem;
+        line-height: 1.25;
+        @include media-breakpoint-down(md) {
+          font-size: 1.5rem;
+        }
+        text-transform: uppercase;
+        padding: 0 0 cal(8rem) 0;
+        margin-right: cal(20rem);
+        color: #929292;
+
+        &.active {
+          border-bottom: 1px solid $yellow;
+          color: #252525;
+          background: transparent;
+        }
+
+      }
+    }
+
+
+    &-content {
+      @include media-breakpoint-up(sm) {
+        padding-top: cal(40rem);
+      }
+      padding-top: 1.5rem;
+    }
+  }
+
+  &__item {
+    &__author {
+      color: #888888;
+    }
+
+    &__title {
+      font-size: cal(24rem);
+      color: #252525;
+      line-height: 1.2;
+    }
+
+    &__content {
+      color: #454545;
+    }
+
+    &__img {
+      ._img {
+        width: 100%;
+      }
+    }
+
+    &.--s-item {
+      .news__item {
+        &__author, &__title {
+          color: #ffffff;
+        }
+
+        &__title:hover {
+          color: $green;
+        }
+
+        &__wrapper {
+          z-index: 2;
+        }
+
+        &__img {
+          position: relative;
+
+          ._s-img {
+            @include media-breakpoint-up(lg) {
+              height: 100%;
+            }
+          }
+
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: '';
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(23, 23, 23, 0) 0%, #171717 100%);
+          }
+        }
+      }
+    }
+  }
+
+}

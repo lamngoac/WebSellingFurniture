@@ -1,0 +1,65 @@
+@import 'base';
+@import 'keyframe';
+@import 'var';
+@import 'function';
+@import '../bootstrap/bootstrap';
+
+$green: #046E32;
+$grayv1: #454545;
+$grayv2: #555555;
+$grayv3: #252525;
+$yellow: #FFCA08;
+.recru {
+  margin-bottom: cal(40rem);
+
+  &__list {
+    @include media-breakpoint-up(lg) {
+      --bs-gutter-x: 2rem;
+      --bs-gutter-y: 2rem;
+    }
+  }
+
+  &__item {
+    padding: cal(16rem);
+
+    &:focus, &:hover {
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+
+      .recru__item__more {
+        border-color: $yellow;
+        background-color: $yellow;
+        color: $grayv1;
+      }
+    }
+
+    ._main-img {
+      @include media-breakpoint-up(xl) {
+        height: 100%;
+      }
+      @include media-breakpoint-down(xl) {
+        width: 100%;
+      }
+    }
+
+    &__time {
+      color: #888888;
+
+      ._icon {
+        margin-top: -4px;
+        margin-right: 4px;
+      }
+    }
+
+    &__title {
+      font-size: cal(24rem);
+      color: #046E32;
+      line-height: 1.2;
+    }
+
+    &__more {
+      border: 1px solid $grayv1;
+      padding: cal(11rem) cal(42rem);
+
+    }
+  }
+}

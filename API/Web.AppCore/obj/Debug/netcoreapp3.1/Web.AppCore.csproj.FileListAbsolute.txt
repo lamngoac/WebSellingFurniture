@@ -1,0 +1,16 @@
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\bin\Debug\netcoreapp3.1\Web.AppCore.deps.json
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\bin\Debug\netcoreapp3.1\Web.AppCore.dll
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\bin\Debug\netcoreapp3.1\Web.AppCore.pdb
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\bin\Debug\netcoreapp3.1\Web.Caching.dll
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\bin\Debug\netcoreapp3.1\Web.Caching.pdb
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\obj\Debug\netcoreapp3.1\Web.AppCore.csproj.AssemblyReference.cache
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\obj\Debug\netcoreapp3.1\Web.AppCore.Properties.Resource.resources
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\obj\Debug\netcoreapp3.1\Web.AppCore.Properties.UserResource.resources
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\obj\Debug\netcoreapp3.1\Web.AppCore.csproj.GenerateResource.cache
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\obj\Debug\netcoreapp3.1\Web.AppCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\obj\Debug\netcoreapp3.1\Web.AppCore.AssemblyInfoInputs.cache
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\obj\Debug\netcoreapp3.1\Web.AppCore.AssemblyInfo.cs
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\obj\Debug\netcoreapp3.1\Web.AppCore.csproj.CoreCompileInputs.cache
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\obj\Debug\netcoreapp3.1\Web.AppCore.csproj.CopyComplete
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\obj\Debug\netcoreapp3.1\Web.AppCore.dll
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.AppCore\obj\Debug\netcoreapp3.1\Web.AppCore.pdb

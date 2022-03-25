@@ -1,0 +1,94 @@
+.title-address {
+  padding-bottom: 1.875rem;
+  display: block; }
+
+.set-table .tables-alls {
+  padding-top: 0; }
+
+.item__name {
+  color: #252525;
+  font-size: 1rem;
+  margin-bottom: 0.625rem; }
+
+.from .form-control {
+  height: 2.875rem;
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  box-sizing: border-box;
+  border-radius: 0; }
+.from::placeholder {
+  color: #929292;
+  padding-left: 0.625rem; }
+.from .mb-set {
+  margin-bottom: 1.5rem; }
+
+.box-oder {
+  padding: 0 0.625rem;
+  margin-top: 1.9375rem;
+  width: 100%;
+  background: #F9F9F9;
+  border: 1px solid #EBEBEB; }
+  .box-oder .item_boder {
+    border-bottom: 1px solid #EBEBEB;
+    padding: 1.1875rem;
+    margin: 0;
+    color: #252525; }
+    .box-oder .item_boder .price {
+      color: #046e32; }
+
+.btn-oder {
+  margin-top: 1.875rem;
+  height: 2.875rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffff; }
+
+.btn-confirm {
+  background: #FFCA08;
+  padding-left: 1.375rem;
+  padding-right: 1.375rem;
+  margin-right: 1.5625rem; }
+  .btn-confirm:hover {
+    background-color: #fff;
+    border: 1px solid #FFCA08; }
+
+.btn-cancel {
+  background: #F5F5F5;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem; }
+  .btn-cancel:hover {
+    background-color: #fff;
+    border: 1px solid #FFCA08; }
+
+.mt-set {
+  margin-top: 1rem; }
+
+.item-project {
+  padding-top: 3.125rem; }
+
+.project-name {
+  color: #252525;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 1.5625rem;
+  margin-bottom: 1rem; }
+
+.project_adress {
+  color: #454545;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 0.5rem; }
+  .project_adress img {
+    margin-right: 0.375rem; }
+
+.slide-img img {
+  width: 100%; }
+
+.item-project .row {
+  --bs-gutter-x:3rem;
+  --bs-gutter-y:3rem; }
+
+/*# sourceMappingURL=cart_pay.css.map */

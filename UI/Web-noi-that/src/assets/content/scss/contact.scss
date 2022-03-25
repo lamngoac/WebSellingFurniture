@@ -1,0 +1,173 @@
+@import 'base';
+@import 'keyframe';
+@import 'var';
+@import 'function';
+@import '../bootstrap/bootstrap';
+
+$green: #046E32;
+$grayv1: #454545;
+$grayv2: #555555;
+$grayv3: #252525;
+$yellow: #FFCA08;
+.contact {
+  &__form, &__info {
+    @include media-breakpoint-up(xxl) {
+      margin-top: cal(61rem);
+    }
+    @include media-breakpoint-between(md, xl) {
+      margin-top: cal(51rem);
+    }
+    @include media-breakpoint-down(sm) {
+      margin-top: cal(21rem);
+    }
+  }
+
+  &__map {
+    ._map {
+      width: 100%;
+      @include media-breakpoint-up(xl) {
+        height: cal(534rem);
+      }
+      @include media-breakpoint-between(sm, xl) {
+        height: cal(350rem);
+      }
+      @include media-breakpoint-down(sm) {
+        height: cal(250rem);
+      }
+    }
+  }
+
+  &__content {
+    box-shadow: 0px 10px 20px rgba(53, 53, 53, 0.1);
+    @include media-breakpoint-up(xl) {
+      padding: cal(12rem) cal(64rem) cal(17rem) cal(50rem);
+    }
+    @include media-breakpoint-between(sm, xl) {
+      padding: cal(9rem) cal(53rem) cal(13rem) cal(40rem);
+    }
+    @include media-breakpoint-down(sm) {
+      padding: cal(6rem) cal(30rem) cal(9rem) cal(25rem);
+    }
+  }
+
+
+  &__info {
+    @include media-breakpoint-up(lg) {
+      &__wrapper {
+        border-right: 1px solid #EBEBEB;
+      }
+
+    }
+    @include media-breakpoint-up(xl) {
+      padding-right: cal(171rem);
+    }
+    @include media-breakpoint-only(lg) {
+      padding-right: cal(80rem);
+    }
+
+  }
+
+  &__element {
+    @include media-breakpoint-up(xl) {
+      padding: cal(16rem);
+    }
+    @include media-breakpoint-between(sm, xl) {
+      padding: cal(13rem);
+    }
+    @include media-breakpoint-down(sm) {
+      padding: cal(8rem);
+    }
+
+    ._icon {
+      color: $green;
+      font-size: 2rem;
+    }
+
+    ._info {
+      padding-left: cal(27rem);
+
+      &-title {
+        font-size: cal(18rem);
+      }
+
+      &-numb, &-address, &-email {
+        color: $grayv1;
+      }
+    }
+  }
+
+  &__address {
+    ._info-address {
+      list-style-type: disc;
+
+      li {
+        margin-bottom: cal(8rem);
+        line-height: calc(22 / 16);
+
+        &::marker {
+          color: $green;
+        }
+      }
+    }
+  }
+
+  &__social {
+    &.contact__element {
+      padding-left: 0;
+    }
+
+    ._link {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      margin-right: cal(9rem);
+      padding: 10px 7px;
+      background: #EBEBEB;
+      border-radius: 999px;
+
+      &:hover {
+        background: $green;
+
+        svg {
+          path {
+            fill: white;
+          }
+        }
+      }
+
+      svg {
+        width: 20px;
+      }
+    }
+  }
+
+  &__form {
+    &__title {
+      margin-top: cal(44rem);
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    ._form {
+      ._input {
+        padding: cal(9rem) 0 cal(9rem) cal(16rem);
+        border-color: #EBEBEB;
+
+        &::placeholder {
+          color: #929292;
+        }
+      }
+
+      ._submit {
+        background: $yellow;
+        border: 1px solid $yellow;
+        padding: cal(12rem) cal(53rem);
+
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding-left: cal(64rem);
+    }
+  }
+}

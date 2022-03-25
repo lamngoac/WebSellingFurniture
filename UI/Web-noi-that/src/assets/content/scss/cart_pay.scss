@@ -1,0 +1,112 @@
+@import "function";
+.title-address {
+    padding-bottom: 1.875rem;
+    display: block; 
+  }
+  .set-table .tables-alls { 
+      padding-top:0 ;
+  }
+.item__name {
+    color:rgba(37, 37, 37, 1);
+    font-size: rem(16);
+    margin-bottom: rem(10);
+  }
+
+  .from {
+      .form-control {
+        height: cal(46rem);
+        background: #FFFFFF;        
+        border: 1px solid #EBEBEB;
+        box-sizing: border-box;
+        border-radius: 0;
+      }
+      &::placeholder {
+        color: #929292;
+        padding-left:rem(10);
+    }
+    .mb-set {
+        margin-bottom:rem(24);
+    }
+  }
+  .box-oder {
+      padding : 0 rem(10);
+      margin-top: rem(31);
+      width: 100%;
+      background: #F9F9F9;
+      border: 1px solid #EBEBEB;
+      .item_boder {
+          border-bottom: 1px solid #EBEBEB;
+          padding: rem(19);
+          margin:0;
+          color: rgba(37, 37, 37, 1);
+         
+          .price {
+            color: rgba(4, 110, 50, 1);   
+          }
+      }
+  }
+  .btn-oder {
+      margin-top: rem(30);
+      height: rem(46);
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      border:1px solid #ffff;
+  } 
+
+  .btn-confirm {
+    background: #FFCA08;
+    padding-left: rem(22);
+    padding-right: rem(22);
+    margin-right: rem(25);
+    &:hover {
+      
+        background-color:#fff;
+        border:1px solid #FFCA08;
+    }
+  }
+  .btn-cancel {
+    background: #F5F5F5;
+    padding-left: rem(30);
+    padding-right: rem(30);
+    &:hover {
+      
+        background-color:#fff;
+        border:1px solid #FFCA08;
+    }
+  }
+  .mt-set {
+     margin-top: rem(16); 
+  }
+  .item-project {
+      padding-top: rem(50);
+  }
+  .project-name {
+      color: rgba(37, 37, 37, 1);
+      font-size: rem(24);
+      font-weight: 400;
+      margin-top: rem(25);
+      margin-bottom: rem(16);
+      
+  }
+  .project_adress {
+      color: rgba(69, 69, 69, 1);
+      font-size: rem(16);
+      display:flex;
+      align-items: center;
+      margin: 0;
+      margin-bottom: rem(8);
+       img {
+           margin-right: rem(6);
+       } 
+  }
+  .slide-img img{
+      width: 100%;
+  }
+
+.item-project{
+  .row{
+    --bs-gutter-x:3rem;
+    --bs-gutter-y:3rem;
+  }
+}

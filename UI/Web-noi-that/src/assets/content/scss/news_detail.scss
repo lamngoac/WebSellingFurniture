@@ -1,0 +1,268 @@
+@import 'base';
+@import 'keyframe';
+@import 'var';
+@import 'function';
+@import '../bootstrap/bootstrap';
+.news-detail {
+  &__social {
+    ._social:not(:last-child) {
+      margin-right: cal(5rem);
+    }
+  }
+
+  &__post {
+    @include media-breakpoint-up(xl) {
+      margin-bottom: 2rem;
+    }
+    @include media-breakpoint-between(md, lg) {
+      margin-bottom: 1.5rem;
+    }
+    @include media-breakpoint-only(sm) {
+      margin-bottom: 1rem;
+    }
+    @include media-breakpoint-down(sm) {
+      margin-bottom: .5rem;
+    }
+  }
+
+  .section__title {
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 2rem;
+      line-height: 1.2;
+    }
+  }
+
+  .news__item__author {
+    @include media-breakpoint-up(xl) {
+      margin-bottom: 2rem;
+    }
+    @include media-breakpoint-between(md, lg) {
+      margin-bottom: 1.5rem;
+    }
+    @include media-breakpoint-only(sm) {
+      margin-bottom: 1rem;
+    }
+    @include media-breakpoint-down(sm) {
+      margin-bottom: .5rem;
+    }
+  }
+
+  &__tags {
+    ._tag {
+      color: $green;
+
+      &:not(:last-child) {
+        &::after {
+          content: ',';
+        }
+      }
+    }
+  }
+
+  ._sharing {
+    ._title {
+      color: #454545;
+    }
+  }
+
+  .fb-comments {
+    width: 100%;
+    padding: cal(32rem) 0;
+  }
+
+  .hot-news, .selling-prod {
+    &__title {
+      font-size: cal(24rem);
+      border-bottom: 2px solid #EBEBEB;
+      position: relative;
+
+      &::after {
+        position: absolute;
+        width: 31%;
+        height: calc(100% + 2px);
+        content: '';
+        border-bottom: 2px solid $yellow;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    .selling-prod {
+      background: #fff;
+
+      &__title::after {
+        width: 90%;
+      }
+
+      &__item {
+        ._link {
+          color: #454545;
+          line-height: 1.375;
+        }
+
+        ._regular-price {
+          font-size: cal(18rem);
+          color: $green;
+        }
+
+        ._sale-price {
+          font-size: cal(14rem);
+          color: #888888;
+        }
+
+        ._rating {
+          ._star, ._star-blank {
+            color: $yellow;
+          }
+        }
+
+      }
+    }
+
+    &__item {
+      ._link {
+        font-size: 1.125rem;
+        line-height: 1.2;
+      }
+    }
+
+  }
+
+}
+
+.sale-prd {
+  &__slider {
+    overflow: visible;
+
+    .swiper-wrapper {
+      padding: cal(5rem) 1px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+      padding: 0 22px;
+      border-radius: 999px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+      &:hover {
+        background-color: $yellow;
+      }
+
+      &::after {
+        font-size: 2rem;
+      }
+    }
+
+    .swiper-button-next {
+      &::after {
+        content: url("http://localhost/brse/images/arrow-right.svg");
+      }
+    }
+
+    .swiper-button-prev {
+      &::after {
+        content: url("http://localhost/brse/images/arrow-left.svg");
+      }
+    }
+
+    @include media-breakpoint-up(sm) {
+      .swiper-button-next {
+        right: cal(-56rem);
+
+        &::after {
+          content: url("http://localhost/brse/images/arrow-right.svg");
+        }
+      }
+
+      .swiper-button-prev {
+        left: cal(-56rem);
+
+        &::after {
+          content: url("http://localhost/brse/images/arrow-left.svg");
+        }
+      }
+    }
+  }
+
+  &__item {
+    padding: cal(20rem) cal(16rem) cal(24rem) cal(16rem);
+    &:hover {
+      box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+
+      ._add-to-cart {
+        background: $yellow;
+        color: $yellow;
+
+        svg {
+          filter: brightness(0%);
+        }
+      }
+    }
+  }
+
+  &__price-rating {
+    ._price {
+      font-size: cal(20rem);
+      color: $green;
+    }
+
+    ._rating {
+      color: $yellow;
+    }
+  }
+
+  &__content {
+    ._add-to-cart {
+      border: 1px solid $yellow;
+      padding: 8px;
+      background: white;
+    }
+  }
+}
+
+.related-news {
+  background-color: #F5F5F5;
+  @include media-breakpoint-up(xl) {
+    padding: cal(80rem) 0;
+  }
+  @include media-breakpoint-between(sm, xl) {
+    padding: cal(60rem) 0;
+  }
+  @include media-breakpoint-down(sm) {
+    padding: cal(30rem) 0;
+  }
+
+  &__list {
+    @include media-breakpoint-up(lg) {
+      --bs-gutter-x: 2rem;
+    }
+  }
+
+  &__author {
+    color: #888888;
+  }
+
+  &__item {
+    ._main-img {
+      @include media-breakpoint-down(sm) {
+        width: 100%;
+      }
+    }
+
+    ._img-link {
+      margin-bottom: cal(25rem);
+    }
+
+    ._title {
+      font-size: cal(24rem);
+      line-height: 1.2;
+    }
+
+    ._short {
+      color: #454545;
+    }
+
+  }
+
+
+}

@@ -1,0 +1,17 @@
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\bin\Debug\netcoreapp3.1\Properties\DatabaseResources.resx
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\bin\Debug\netcoreapp3.1\Web.Infrastructure.deps.json
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\bin\Debug\netcoreapp3.1\Web.Infrastructure.dll
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\bin\Debug\netcoreapp3.1\Web.Infrastructure.pdb
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\bin\Debug\netcoreapp3.1\Web.AppCore.dll
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\bin\Debug\netcoreapp3.1\Web.Caching.dll
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\bin\Debug\netcoreapp3.1\Web.AppCore.pdb
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\bin\Debug\netcoreapp3.1\Web.Caching.pdb
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\obj\Debug\netcoreapp3.1\Web.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\obj\Debug\netcoreapp3.1\Web.Infrastructure.Properties.DatabaseResources.resources
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\obj\Debug\netcoreapp3.1\Web.Infrastructure.csproj.GenerateResource.cache
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\obj\Debug\netcoreapp3.1\Web.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\obj\Debug\netcoreapp3.1\Web.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\obj\Debug\netcoreapp3.1\Web.Infrastructure.AssemblyInfo.cs
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\obj\Debug\netcoreapp3.1\Web.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\obj\Debug\netcoreapp3.1\Web.Infrastructure.dll
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Infrastructure\obj\Debug\netcoreapp3.1\Web.Infrastructure.pdb

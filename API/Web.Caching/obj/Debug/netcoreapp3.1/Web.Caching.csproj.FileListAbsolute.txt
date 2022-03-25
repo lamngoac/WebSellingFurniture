@@ -1,0 +1,10 @@
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Caching\bin\Debug\netcoreapp3.1\Web.Caching.deps.json
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Caching\bin\Debug\netcoreapp3.1\Web.Caching.dll
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Caching\bin\Debug\netcoreapp3.1\Web.Caching.pdb
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Caching\obj\Debug\netcoreapp3.1\Web.Caching.csproj.AssemblyReference.cache
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Caching\obj\Debug\netcoreapp3.1\Web.Caching.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Caching\obj\Debug\netcoreapp3.1\Web.Caching.AssemblyInfoInputs.cache
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Caching\obj\Debug\netcoreapp3.1\Web.Caching.AssemblyInfo.cs
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Caching\obj\Debug\netcoreapp3.1\Web.Caching.csproj.CoreCompileInputs.cache
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Caching\obj\Debug\netcoreapp3.1\Web.Caching.dll
+C:\Users\BOSS\Desktop\BTL 2 Mon\Web_BanNoiThat\API\Web.Caching\obj\Debug\netcoreapp3.1\Web.Caching.pdb
